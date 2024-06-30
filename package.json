@@ -1,0 +1,28 @@
+{
+  "name": "missing-strings-golang-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for detecting missing translation strings in Golang projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbdharun/missing-strings-golang-action.git"
+  },
+  "keywords": [
+    "github-action",
+    "golang",
+    "translations"
+  ],
+  "author": "kbdharun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbdharun/missing-strings-golang-action/issues"
+  },
+  "homepage": "https://github.com/kbdharun/missing-strings-golang-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
